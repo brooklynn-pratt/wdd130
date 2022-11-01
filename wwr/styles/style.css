@@ -60,17 +60,22 @@ nav a:hover, footer a:hover {
 #background {
     background-color: #008FCC;
 }
-.msg, footer, footer a {
+.msg, footer a {
     background-color: #324376; 
     color: #BBB09B;
     text-decoration: none;
     line-height: 1.5em;
     padding: 35px;
 }
-footer p {
-    font-size: 1.2em;
+footer {
+    background-color: #324376; 
+    color: #BBB09B;
+    text-decoration: none;
     padding: 25px 50px;
     margin-top: 200px;
+}
+footer p {
+    font-size: 1.2em;
 } 
 .home-title, h4 {
     background-color: white;
