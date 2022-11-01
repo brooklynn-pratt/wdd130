@@ -84,7 +84,7 @@ footer p {
     color: #BBB09B;
     font-family: "Amatic SC";
     font-size: .8em
-    margin: 0;
+    margin 0;
     padding-bottom: 15px;
 }  
 .icon {
@@ -108,7 +108,7 @@ footer p a:hover {
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #BBB09B;
 }
 main section img {
     box-sizing: border-box;
