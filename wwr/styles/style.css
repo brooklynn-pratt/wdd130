@@ -55,6 +55,7 @@ header {
     background-color:#324376;
     display: grid;
     grid-template-columns: 150px auto;
+    text-align: center;
 }
 .book {
     background-color: white; 
@@ -182,6 +183,27 @@ footer p a:hover {
 }
 main section img {
     box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-gap: 50px;
+    background-color: #BBB09B;
+    color: #324376
+}
+.grid-child-1,.grid-child-2,.grid-child-3,.grid-child-4{
+    border: 5px #BBB09B;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.grid-child-5,.grid-child-6,.grid-child-7,.grid-child-8{
+    border: 5px #BBB09B;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.grid-child-1:hover, .grid-child-2:hover, .grid-child-3:hover, .grid-child-4:hover{
+    transform: scale(1.1);
+}
+.grid-child-5:hover, .grid-child-6:hover, .grid-child-7:hover, .grid-child-8:hover{
+    transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
